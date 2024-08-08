@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.7.16 on win32)" generated="20240809 00:55:55.849" rpa="false" schemaversion="4">
+<suite id="s1" name="区域管理" source="d:\rf_work\rf_work_1\rf_test\客流统计\区域管理.robot">
+<test id="s1-t1" name="删除区域" line="5">
+<kw name="Log" library="BuiltIn">
+<arg>b</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240809 00:55:55.873" level="INFO">b</msg>
+<status status="PASS" starttime="20240809 00:55:55.873" endtime="20240809 00:55:55.874"/>
+</kw>
+<status status="PASS" starttime="20240809 00:55:55.872" endtime="20240809 00:55:55.875"/>
+</test>
+<status status="PASS" starttime="20240809 00:55:55.854" endtime="20240809 00:55:55.876"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="区域管理">区域管理</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
