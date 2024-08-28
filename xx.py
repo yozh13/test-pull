@@ -7,8 +7,7 @@ print('r')
 print('r')
 print('r')
 print('r')
-a = 1
-
+a = 12
 
 def test_1():
     print('rr')
