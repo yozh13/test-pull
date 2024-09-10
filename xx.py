@@ -1,17 +1,25 @@
-# mrster_tester 分支做了修改
-from egg_test import test
+# %%
 from my_module.test import test
 
-print('r')
-print('r')
-print('r')
-print('r')
-print('r')
-a = 12
 
-def test_1():
-    print('rr')
+print(test())
+# %%
+def decorator1(func):
+    def wrapper():
+        print("Inside decorator1")
+        # func()
+    return wrapper
 
+def decorator2(func):
+    def wrapper():
+        print("Inside decorator2")
+        # func()
+    return wrapper
 
-test_1()
-test()
+@decorator1
+# @decorator2
+def my_function():
+    print("Inside my_function")
+
+my_function()
+# %%

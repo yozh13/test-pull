@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH":"${workspaceFolder}/:D:/rf_work/egg_test-0.1.0-py3.7.egg'"
+      } 
+}
